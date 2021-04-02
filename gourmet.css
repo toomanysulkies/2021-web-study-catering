@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans+KR:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lora&family=Noto+Sans+KR:wght@100&display=swap');
+
+html,
+body {
+  font-family: 'Crimson Text', serif;
+}
+hr{width: 100%;
+border-color: rgba(190, 190, 189, 0.233);
+
+}
+
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  
+
+/*  border: 1px solid red; */
+}
+.wrapper2 {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 4em;
+  border-bottom: 1px solid #ccc;}
+/* 헤더 */
+
+.header-wrapper {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 5px;
+  padding: 0.5em 0.75em;
+  position: fixed;
+  z-index: 9;
+  letter-spacing: 0.25em;
+  font-family: 'Crimson Text', serif;
+  color: #777;
+
+}
+
+.header-wrapper>.navi-home {
+  float: left; padding: 0.25em;
+  
+}
+.header-wrapper>.navi-menu {
+  float:right;
+}
+.header-wrapper>.navi-menu>.navi {
+  float:left; padding: 0.25em 0;
+  margin-left: 1em;
+  
+}
+
+
+.gallery-wrapper{
+position: relative;
+max-width: 1400px;
+margin:auto;
+
+}
+.gallery-wrapper>img{
+width: 100%;
+}
+.gallery-wrapper>h2{
+font-family: 'Noto Sans', sans-serif;
+position: absolute;
+font-size: 2em;
+color: #444;
+left: .5em;
+bottom: .6em;
+letter-spacing: .25em;
+
+}
+
+
+
+
+.article-wrapper>.article-img>img{
+opacity: 0.8;
+  float: left;
+  width: 48%;
+
+}
+.article-wrapper>.article-text{
+float: right;
+width: 48%;
+}
+
+.article-wrapper>.article-text>.article-text-titlegroup{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+.article-wrapper>.article-text>.article-text-titlegroup>.article-text-title{
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  margin-top: 1.1em;
+}
+.article-wrapper>.article-text>.article-text-titlegroup>.article-text-subtitle{
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  margin-top: 2em;
+}
+.article-wrapper>.article-text>.article-paragroup{
+  font-size: 1.2em;
+ line-height: 17%;
+  margin-top: 2em;
+
+}
+.article-wrapper>.article-text>.article-paragroup>.article-paragraph{
+  
+  margin: 2em 0;
+}
+
+.article-wrapper>.article-text>.article-paragroup>
+.article-paragraph:last-child>span{
+ color: rgba(110, 110, 110, 0.842);
+}
+
+
+
+.menu-wrapper{  
+width: 100%;
+
+}
+.menu-wrapper>.menu-food-info{
+  width:48%;
+  float: left;
+}
+.menu-wrapper>.menu-food-img>img{
+  width:48%;
+  float:right;
+  opacity: 0.8;
+
+}
+.menu-wrapper>.menu-food-info>h3{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  margin-top: 1.1em;
+
+}
+.menu-wrapper>.menu-food-info>.menu-foodtext{
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+.menu-wrapper>.menu-food-info>.menu-foodtext>.menu-food-title{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.7em;
+  letter-spacing: 0.2em;
+  color:rgba(29, 28, 28, 0.979)
+}
+
+.menu-wrapper>.menu-food-info>.menu-foodtext>.menu-food-des{
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  color: #646363;
+}
+/* .menu-wrapper>.menu-food-info>.menu-foodtext>.menu-food-des:last-child{
+  margin-bottom: -1em;
+
+} */
+
+.contact-wrapper{
+
+width: 100%;
+border:none;
+
+}
+.contact-wrapper hr{
+margin: .3em 0;
+width: 100%;
+
+}
+.contact-wrapper>.contact-title{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+
+}
+
+.contact-wrapper>.contact-info{
+  margin: 3em 0 1em 0;
+  width: 100%;
+  
+}
+.contact-wrapper>.contact-info>.contact-text{
+  margin-top: 2em;
+  font-size: 0.9em;
+  line-height: 140%;
+  
+}
+.contact-wrapper>.contact-info>.contact-text:nth-child(2){
+  margin-top: 2em;
+  font-size: 0.9em;
+  line-height: 140%;
+  color: rgb(50, 87, 100);
+  font-weight: 900;
+}
+.contact-wrapper>.contact-message>input{
+  width: 100%;
+  padding: 1em;
+  margin: -1em, 0, 0, 0;
+}
+.contact-wrapper>.contact-message>input:focus{
+  border: 0.5px solid blue;
+  border-radius: 5px;
+}
+
+.contact-wrapper>.contact-message>button{
+  margin-top: 1em;
+ padding: .9em;
+  background-color: rgba(187, 187, 187, 0.301);
+  border-radius: 5px;
+}
+.contact-wrapper>.contact-message>button:hover{
+
+  background-color: rgba(97, 96, 96, 0.301);
+
+}
+.contact-wrapper>.contact-message>button:active{
+
+  border: 0.5px solid blue;
+  border-radius: 5px;
+
+}
+
+.footer-wrapper{
+  background-color: rgba(191, 193, 196, 0.37);
+  padding: 2em;
+  text-align: center;
+}
+
+/* 여기부터는 모바일 */
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+  .header-wrapper>.navi-menu {
+  display: none;
+  }
+
+    
+  .menu-wrapper>.menu-food-info{
+    width:100%;
+    float: left;
+  }
+  .menu-wrapper>.menu-food-img>img{
+    width:100%;
+    float:right;
+    opacity: 0.8;
+  }
+  
+}
+
+@media (max-width: 756px) {
+  
+}
+
+@media (max-width: 600px) {
+  .article-wrapper>.article-img>img{
+  display: none;
+    }
+    .article-wrapper>.article-text{
+
+      width: 100%;
+      }
+
+    
+}
